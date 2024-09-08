@@ -10,7 +10,8 @@ Data Structures: Implementation of essential data structures such as arrays, lin
 hashmaps.
 **Algorithms:**  
                Includes searching, sorting, dynamic programming, greedy algorithms, graph algorithms, and more.
-**Optimized Solutions:** 
+**Optimized Solutions:**  
+
            Focus on writing clean, efficient, and memory-optimized C++ code.
 **Commented Codes:**
           Each implementation is well-commented to explain the logic and approach.
