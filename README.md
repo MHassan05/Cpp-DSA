@@ -9,11 +9,10 @@ Features:
 Data Structures: Implementation of essential data structures such as arrays, linked lists, stacks, queues, trees, graphs, and 
 hashmaps.
 **Algorithms:**  
-               Includes searching, sorting, dynamic programming, greedy algorithms, graph algorithms, and more.
-**Optimized Solutions:**  
-
-           Focus on writing clean, efficient, and memory-optimized C++ code.
-**Commented Codes:**
-          Each implementation is well-commented to explain the logic and approach.
-**Practice Problems:** 
-          Contains practice problems and challenges to test and reinforce learning.
+               Includes searching, sorting, dynamic programming, greedy algorithms, graph algorithms, and more.  
+               **Optimized Solutions:**  
+Focus on writing clean, efficient, and memory-optimized C++ code.
+**Commented Codes:**  
+Each implementation is well-commented to explain the logic and approach.
+**Practice Problems:**  
+Contains practice problems and challenges to test and reinforce learning.
