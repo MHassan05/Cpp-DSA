@@ -6,13 +6,14 @@ struct Node
 	int Data;
 	Node* Next;
 
+	// a constructor for the structure to initialze the data
 	Node(int data) : Data(data), Next(NULL) {}
 };
 
 class LinkedList
 {
 	Node* head;
-    int size;
+        int size;
 
 public:
 	LinkedList() : head(NULL), size(0) {}
@@ -22,13 +23,16 @@ public:
 	{
 		Node* newNode = new Node(data);
 
+		// checking if the list was already empty or not 
 		if (head == NULL)
 		{
+			// if empty then insert data at beginning of list
 			head = newNode;
-            size++;
+                        size++;
 			return;
 		}
 
+		// if list was not empty then insert data at end of list
 		Node* temp = head;
 		while (temp->Next != NULL)
 		{
@@ -38,7 +42,7 @@ public:
         size++;
 	}
 
-	// function to print list
+	// operator overloaded to print list
 	friend ostream& operator<<(ostream& out, const LinkedList& list)
 	{
 		Node* temp = list.head;
@@ -50,7 +54,7 @@ public:
 		return out;
 	}
 
-	// Destructor for class
+	// Destructor for class that will de-allocate the allocated memory
 	~LinkedList()
 	{
 		while (head != NULL)
@@ -67,10 +71,10 @@ public:
 		Node* newNode = head;
 		head = head->Next;
 		delete newNode;
-        size--;
+                size--;
 	}
 
-	// deleting a node in between 
+	// deleting a node at given index
 	void DeleteAtIndex(int index)
 	{
         if(index < 1 || index > size || head == NULL)
@@ -79,18 +83,21 @@ public:
             return;
         }
 
+	// condition to delete node from begginning
         if(index == 1)
         {
             DeleteFirstNode();
             return;
         }
 
+	// condition to delete node from end
         if(index == size)
         {
             DeleteLastNode();
             return;
         }
 
+		// if both upper conidtion not matched then delete node from specified index
 		Node* temp = head;
 		int i = 2;
 		while (i < index)
@@ -124,6 +131,12 @@ public:
 	// deleting the node with given value
 	bool DeleteGivenValues(int value)
 	{
+		if(head == NULL)
+		{
+			cout << "List is Empty" << endl;
+			return;
+		}
+		
 		Node* temp = head;
 		Node* deletingNode = temp->Next;
 
@@ -145,6 +158,7 @@ public:
 	}
 };
 
+// main function that will show functionality of each membor function in the class
 int main()
 {
 	LinkedList list;
