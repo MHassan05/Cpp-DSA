@@ -6,7 +6,7 @@ struct Node
 	int Data;
 	Node* Next;
 
-	// a constructor for the structure to initialze the data
+	// a constructor to initialze the node with given data and set Next to NULL
 	Node(int data) : Data(data), Next(NULL) {}
 };
 
