@@ -8,8 +8,8 @@ Features:
 
 Data Structures: Implementation of essential data structures such as arrays, linked lists, stacks, queues, trees, graphs, and 
 hashmaps.
-**Algorithms:**
-           Includes searching, sorting, dynamic programming, greedy algorithms, graph algorithms, and more.\n
+**Algorithms:**  
+               Includes searching, sorting, dynamic programming, greedy algorithms, graph algorithms, and more.
 **Optimized Solutions:** 
            Focus on writing clean, efficient, and memory-optimized C++ code.
 **Commented Codes:**
