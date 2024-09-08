@@ -32,7 +32,7 @@ public:
 			return;
 		}
 
-		// if list was not empty then insert data at end of list
+		// if list was not empty then insert data at the end of list
 		Node* temp = head;
 		while (temp->Next != NULL)
 		{
