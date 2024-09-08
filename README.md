@@ -6,14 +6,14 @@ A collection of essential data structures and algorithms implemented in C++. Thi
 This repository contains a collection of fundamental data structures and algorithms implemented in C++. It serves as a comprehensive resource for anyone looking to strengthen their problem-solving skills and understanding of algorithmic concepts. The repository is designed to be beginner-friendly while also providing advanced solutions for more experienced developers.
 Features:
 
-**Data Structures:**  
+**> Data Structures:**  
 Implementation of essential data structures such as arrays, linked lists, stacks, queues, trees, graphs, and 
 hashmaps.  
-               **Algorithms:**  
-               > Includes searching, sorting, dynamic programming, greedy algorithms, graph algorithms, and more.  
-               **Optimized Solutions:**  
+               **> Algorithms:**  
+               Includes searching, sorting, dynamic programming, greedy algorithms, graph algorithms, and more.  
+               **> Optimized Solutions:**  
                Focus on writing clean, efficient, and memory-optimized C++ code.  
-               **Commented Codes:**  
+               **> Commented Codes:**  
                Each implementation is well-commented to explain the logic and approach.  
-               **Practice Problems:**  
+               **> Practice Problems:**  
                Contains practice problems and challenges to test and reinforce learning.
