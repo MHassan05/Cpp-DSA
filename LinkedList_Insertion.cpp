@@ -5,7 +5,7 @@ struct Node {
    int Data;          
    Node* Next;        
 
-   // Constructor to initialize a new node with given data and default Next as nullptr
+   // Constructor to initialize the Node with given data and default Next as nullptr
    Node(int Value = 0) : Data(Value), Next(nullptr) {}
 };
 
