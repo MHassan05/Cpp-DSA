@@ -1,6 +1,7 @@
 #include <iostream>
 using namespace std;
 
+// node class ( struct can be used )
 class Node
 {
 public:
