@@ -1,13 +1,12 @@
-#include <iostream>
-
-using namespace std;
-
 /*
  * This program defines a linked list and includes a function to detect cycles within the list.
  * The algorithm used to detect cycles is Floyd's Cycle-Finding Algorithm, also known as the 
  * Tortoise and Hare algorithm. It uses two pointers moving at different speeds to determine 
  * if a cycle exists.
  */
+
+#include <iostream>
+using namespace std;
 
 struct Node 
 {
