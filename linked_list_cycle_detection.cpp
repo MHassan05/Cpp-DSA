@@ -9,13 +9,15 @@ using namespace std;
  * if a cycle exists.
  */
 
-struct Node {
+struct Node 
+{
     int data;
     Node* next;
     Node(int val) : data(val), next(nullptr) {}
 };
 
-class LinkedList {
+class LinkedList 
+{
 public:
     Node* head;
     LinkedList() : head(nullptr) {}
@@ -24,12 +26,14 @@ public:
     void append(int data)
      {
         Node* newNode = new Node(data);
-        if (!head) {
+        if (!head) 
+        {
             head = newNode;
             return;
         }
         Node* temp = head;
-        while (temp->next) {
+        while (temp->next) 
+        {
             temp = temp->next;
         }
         temp->next = newNode;
@@ -41,7 +45,8 @@ public:
         if (!head || !head->next) return false;
         Node* slow = head;
         Node* fast = head;
-        while (fast && fast->next) {
+        while (fast && fast->next)
+            {
             slow = slow->next;
             fast = fast->next->next;
             if (slow == fast) return true;
@@ -50,7 +55,8 @@ public:
     }
 };
 
-int main() {
+int main() 
+{
     LinkedList list;
     list.append(1);
     list.append(2);
@@ -63,7 +69,9 @@ int main() {
     if (list.detectCycle()) 
     {
         cout << "Cycle detected in the linked list." << endl;
-    } else {
+    }
+    else 
+    {
         cout << "No cycle detected in the linked list." << endl;
     }
 
